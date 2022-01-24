@@ -1,0 +1,21 @@
+.navbar img{
+    position:absolute;
+    top: 0;
+    left: 0;
+
+}
+.navbar figcaption{
+    position:relative;
+}
+
+.navbar button{
+    background-color: transparent;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+}
+.navbar-menu-icon{
+    width: 20px;
+    height: 20px;
+}
