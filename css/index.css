@@ -1,21 +1,37 @@
-.navbar img{
-    position:absolute;
-    top: 0;
-    left: 0;
-
-}
-.navbar figcaption{
-    position:relative;
-}
-
-.navbar button{
-    background-color: transparent;
-    border: 0;
-    width: 32px;
-    height: 32px;
-    padding: 0;
-}
-.navbar-menu-icon{
-    width: 20px;
-    height: 20px;
-}
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, PingFang TC, Microsoft JhengHei, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
+        font-size: 14px;
+        color: #564e4a;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #564e4a;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    
+    .navbar img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .navbar figcaption {
+        position: relative;
+    }
+    
+    .navbar button {
+        background-color: transparent;
+        border: 0;
+        width: 32px;
+        height: 32px;
+        padding: 0;
+    }
+    
+    .navbar-menu-icon {
+        width: 20px;
+        height: 20px;
+    }

@@ -9,25 +9,49 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/all-font.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
 </head>
 
 <body>
     <div class="container">
-        <nav class="navbar">
-            <figure class="d-flex">
-                <!-- figure用法（https://www.fooish.com/html/figure-figcaption-tag.html） -->
-                <img class="d-none d-md-block" src="https://tokyo-kitchen.icook.network/logos/iCook-desktop.svg"
-                    alt="愛料理">
-                <img class="d-md-none" src="https://tokyo-kitchen.icook.network/logos/iCook.svg" alt="愛料理">
-                <figcaption class="d-flex flex-column ml-5">
-                    <span class="d-none d-md-block">開啟美好生活</span>
-                    <strong>愛料理</strong>
-                </figcaption>
-            </figure>
-            <button type="button" class="">
-                <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="menu-mobile-title" class="navbar-menu-icon"><title id="menu-mobile-title">選單</title><path fill="#564E4A" d="M2.5 10.833a.833.833 0 1 1 0-1.666h15a.833.833 0 1 1 0 1.666h-15zM2.5 5a.833.833 0 1 1 0-1.667h15A.833.833 0 0 1 17.5 5h-15zm0 11.667A.833.833 0 0 1 2.5 15h15a.833.833 0 1 1 0 1.667h-15z"></path></svg>
-            </button>
-        </nav>
+        <div class="row">
+            <div class="col navbar">
+                <figure class="d-flex">
+                    <!-- figure用法（https://www.fooish.com/html/figure-figcaption-tag.html） -->
+                    <img class="d-none d-md-block" src="https://tokyo-kitchen.icook.network/logos/iCook-desktop.svg" alt="愛料理">
+                    <img class="d-md-none" src="https://tokyo-kitchen.icook.network/logos/iCook.svg" alt="愛料理">
+                    <figcaption class="d-flex flex-column ml-5">
+                        <span class="d-none d-md-block">開啟美好生活</span>
+                        <strong>愛料理</strong>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col navbar">
+                <button type="button" class="d-md-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="menu-mobile-title"
+                        class="navbar-menu-icon">
+                        <title id="menu-mobile-title">選單</title>
+                        <path fill="#564E4A"
+                            d="M2.5 10.833a.833.833 0 1 1 0-1.666h15a.833.833 0 1 1 0 1.666h-15zM2.5 5a.833.833 0 1 1 0-1.667h15A.833.833 0 0 1 17.5 5h-15zm0 11.667A.833.833 0 0 1 2.5 15h15a.833.833 0 1 1 0 1.667h-15z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div class="col d-none d-md-flex">
+                <ul class="d-flex">
+                    <li><a href="#">愛料理</a></li>
+                    <li><a href="#">生活誌</a></li>
+                    <li><a href="#">市集</a></li>
+                    <li><a href="#">影音</a></li>
+                    <li><a href="#">試用推薦</a></li>
+                    <li><a href="#">升級VIP</a></li>
+                </ul>
+                <ul class="d-flex">
+                    <li><a href="#">登入</a></li>
+                    <li><a href="#">註冊</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
     <!-- <script src="./js/bootstrap.js"></script> -->
 </body>
