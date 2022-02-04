@@ -20,7 +20,7 @@
             font-size: 14px;
             color: #564e4a;
             letter-spacing: .06em;
-            white-space:nowrap;
+            white-space: nowrap;
         }
 
         a {
@@ -89,25 +89,30 @@
         figure {
             margin-bottom: 0;
         }
-        header{
+
+        header {
             border-bottom: 1px solid #e2e0db;
         }
 
-        header a{
+        header a {
             align-items: center;
             font-size: 16px;
             font-weight: 500;
         }
-        header ul{
+
+        header ul {
             margin: 8px 0 8px 0;
         }
-        header nav{
+
+        header nav {
             overflow: auto;
         }
-        header li{
+
+        header li {
             padding: 0 14px 0 14px;
         }
-        header >.container>div{
+
+        header>.container>div {
             border-left: 1px solid #e2e0db;
         }
     </style>
@@ -177,6 +182,30 @@
             <div class="m-2 pl-2"><i class="fas fa-chevron-down"></i></div>
         </div>
     </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <div class="search-bar input-group">
+                    <div class="search-by-type">
+                        <select name="" id="">
+                            <option value="" selected>找食譜</option>
+                            <option value="">找作者</option>
+                        </select>
+                    </div>
+                    <div class="search-by-keyword">
+                        <input class="search-input" aria-label="搜尋食譜名" autocomplete="off" name="q" placeholder="搜尋食譜名"
+                            value="" maxlength="100">
+                    </div>
+                    <div>
+                        <input class="search-input" aria-label="搜尋食材，以空格分開" autocomplete="off" name=""
+                            placeholder="搜尋食材，以空格分開" maxlength="100" value="">
+                    </div>
+                    <button class="btn-search" type="submit" disabled="" aria-label="搜尋"
+                        data-track-id="track-search-submit"><i class="icon-search-regular"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
