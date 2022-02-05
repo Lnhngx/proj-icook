@@ -26,6 +26,11 @@
         a {
             text-decoration: none;
             color: #564e4a;
+            font-weight: 300;
+        }
+
+        a:hover {
+            color: #89817d;
         }
 
         li {
@@ -36,6 +41,7 @@
         ul {
             list-style: none;
             margin: 22px 0 22px 0;
+            padding: 0;
         }
 
         .navbar img {
@@ -94,6 +100,10 @@
             border-bottom: 1px solid #e2e0db;
         }
 
+        header .navv {
+            padding: 0;
+        }
+
         header a {
             align-items: center;
             font-size: 16px;
@@ -115,6 +125,91 @@
         header>.container>div {
             border-left: 1px solid #e2e0db;
         }
+
+        .search-bar {
+            height: 44px;
+        }
+
+        .search-bar select {
+            height: 100%;
+            width: 99px;
+            border-radius: 4px 0 0 4px;
+            border: 1px solid #e2e0db;
+            color: #564e4a;
+            padding: 10px 15px;
+            border-right-width: 0;
+            letter-spacing: .06em;
+            appearance: none;
+        }
+
+        .search-by-type {
+            position: relative;
+        }
+
+        .search-bar .search-icon {
+            position: absolute;
+            top: 5px;
+            right: 15px;
+            color: #706864;
+            font-size: 20px;
+            pointer-events: none;
+        }
+
+        .search-by-keyword {
+            width: calc(100% - 150px);
+        }
+
+        .search-bar input {
+            height: 100%;
+            width: 50%;
+            padding: 0 15px;
+            border: 1px solid #e2e0db;
+            white-space: nowrap;
+            font-size: 14px;
+            letter-spacing: .06em;
+            color: #89817d;
+        }
+
+        .search-bar input:first-child {
+            border-right-width: 0;
+        }
+
+        .search-bar button {
+            width: 50px;
+            height: 44px;
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-color: #f04646;
+            border: 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .bookmark a {
+            border: 1px solid #e2e0db;
+            border-radius: 4px;
+            padding: 10px 16px;
+            color: #564e4a;
+            font-weight: 300;
+            height: 44px;
+        }
+        .header-popular-keywords strong {
+            font-weight: 300;
+        }
+
+        .header-popular-keywords a {
+            font-weight: 500;
+            padding: 0 8px 26px 0;
+        }
+
+        .header-popular button {
+            background: transparent;
+            border: 0;
+            color: #564e4a;
+            font-size: 1.6rem;
+            padding: 0 16px 20px 8px;
+        }
+
     </style>
 </head>
 
@@ -134,8 +229,8 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col navbar d-md-none">
-                    <button type="button" class="d-md-none">
+                <div class="col navbar d-md-none justify-content-end">
+                    <button type="button">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="menu-mobile-title"
                             class="navbar-menu-icon">
                             <title id="menu-mobile-title">選單</title>
@@ -145,67 +240,88 @@
                         </svg>
                     </button>
                 </div>
-                <div class="nav-right col d-none d-md-flex ">
+                <div class="nav-right col d-none d-md-flex justify-content-end">
                     <ul class="d-flex p-0 align-items-center pr-3">
-                        <li class="ml-3"><a href="#">愛料理</a></li>
-                        <li class="ml-3"><a href="#">生活誌</a></li>
-                        <li class="ml-3"><a href="#">市集</a></li>
-                        <li class="ml-3"><a href="#">影音</a></li>
-                        <li class="ml-3"><a href="#">試用推薦</a></li>
-                        <li class="ml-3"><a href="#">升級VIP</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">愛料理</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">生活誌</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">市集</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">影音</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">試用推薦</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">升級VIP</a></li>
                     </ul>
                     <ul class="d-flex p-0 align-items-center">
-                        <li class="ml-3"><a href="#">登入</a></li>
-                        <li class="ml-3"><a href="#">註冊</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">登入</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">註冊</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
     <header>
-        <div class="container d-flex justify-content-between ">
-            <nav class=" w-100">
+        <div class="navv container  d-flex justify-content-between ">
+            <nav class="w-100">
                 <ul class="d-flex justify-content-between">
-                    <li><a href="">🧧過年年菜</a></li>
-                    <li><a href="">素食年菜</a></li>
-                    <li><a href="">鯧魚</a></li>
-                    <li><a href="">年糕</a></li>
-                    <li><a href="">湯圓/元宵</a></li>
-                    <li><a href="">防疫在家煮</a></li>
-                    <li><a href="">情人節</a></li>
-                    <li><a href="">素食/蔬食</a></li>
-                    <li><a href="">親子</a></li>
-                    <li><a href="">烘焙點心&甜點</a></li>
-                    <li><a href="">健身</a></li>
+                    <li><a href="" class="text-decoration-none">🧧過年年菜</a></li>
+                    <li><a href="" class="text-decoration-none">素食年菜</a></li>
+                    <li><a href="" class="text-decoration-none">鯧魚</a></li>
+                    <li><a href="" class="text-decoration-none">年糕</a></li>
+                    <li><a href="" class="text-decoration-none">湯圓/元宵</a></li>
+                    <li><a href="" class="text-decoration-none">防疫在家煮</a></li>
+                    <li><a href="" class="text-decoration-none">情人節</a></li>
+                    <li><a href="" class="text-decoration-none">素食/蔬食</a></li>
+                    <li><a href="" class="text-decoration-none">親子</a></li>
+                    <li><a href="" class="text-decoration-none">烘焙點心&甜點</a></li>
+                    <li><a href="" class="text-decoration-none">健身</a></li>
                 </ul>
             </nav>
             <div class="m-2 pl-2"><i class="fas fa-chevron-down"></i></div>
+
         </div>
     </header>
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8">
-                <div class="search-bar input-group">
-                    <div class="search-by-type">
-                        <select name="" id="">
-                            <option value="" selected>找食譜</option>
-                            <option value="">找作者</option>
-                        </select>
-                    </div>
-                    <div class="search-by-keyword">
-                        <input class="search-input" aria-label="搜尋食譜名" autocomplete="off" name="q" placeholder="搜尋食譜名"
-                            value="" maxlength="100">
-                    </div>
-                    <div>
-                        <input class="search-input" aria-label="搜尋食材，以空格分開" autocomplete="off" name=""
-                            placeholder="搜尋食材，以空格分開" maxlength="100" value="">
-                    </div>
-                    <button class="btn-search" type="submit" disabled="" aria-label="搜尋"
-                        data-track-id="track-search-submit"><i class="icon-search-regular"></i></button>
+        <div class="row align-items-center">
+            <div class="search-bar d-flex col-lg-8 col-12 mt-3 justify-content-between p-0">
+                <div class="search-by-type">
+                    <select name="" id="">
+                        <option value="" selected>找食譜</option>
+                        <option value="">找作者</option>
+                    </select>
+                    <span class="search-icon"><i class="fas fa-sort-down"></i></span>
                 </div>
+                <div class="search-by-keyword">
+                    <input class="search-input1" aria-label="搜尋食譜名" placeholder="搜尋食譜名" value=""><input
+                        class="search-input2" aria-label="搜尋食材，以空格分開" placeholder="搜尋食材，以空格分開" value="">
+                </div>
+                <button class="btn-search" type="submit" aria-label="搜尋" data-track-id="track-search-submit"><i
+                        class="fas fa-search"></i></button>
+            </div>
+            <div class="bookmark d-none d-lg-flex col-4 mt-3 justify-content-end">
+                <a href="#" class="mr-2 text-decoration-none "><i class="far fa-bookmark"></i>&nbsp;
+                    食譜收藏</a>
+                <a href="#" class="text-decoration-none"><i class="fas fa-plus"></i>&nbsp;寫食譜</a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="header-popular col-xs-12 w-100 d-flex d-md-block justify-content-between">
+                <div class="header-popular-keywords d-inline-flex mt-2 pt-1">
+                    <strong>熱搜：</strong>
+                    <ul class="popular-keywords d-flex m-0">
+                        <li class="popular-keywords-item mr-2"><a href="">年糕</a></li>
+                        <li class="popular-keywords-item mr-2"><a href="">鳳梨蝦球</a></li>
+                        <li class="popular-keywords-item mr-2"><a href="">鬆餅</a></li>
+                        <li class="popular-keywords-item mr-2 d-none d-md-flex"><a href="">氣炸年糕</a></li>
+                        <li class="popular-keywords-item mr-2 d-none d-md-flex"><a href="">五味醬</a></li>
+                    </ul>
+                </div>
+                <button class="ml-1">
+                    <i class="fas fa-sort-down"></i>
+                </button>
             </div>
         </div>
     </div>
+
+    
 </body>
 
 </html>
