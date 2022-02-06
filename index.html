@@ -212,7 +212,8 @@
         }
 
         .mainpic {
-            height: 448px;
+            /* height: 448px; */
+            margin: 0 0 40px 0;
         }
 
         .mainpic-1 {
@@ -368,8 +369,101 @@
             border-radius: 4px;
             border: 0;
         }
-        .main-4 a div{
+
+        .main-4 a div {
             background-color: #fafafa;
+        }
+
+        .page-1 {
+            margin-bottom: 16px;
+            padding: 16px 0;
+        }
+
+        .page-1 h2 {
+            margin: 0;
+            font-weight: 400;
+            font-size: 22px;
+        }
+
+        .page-1 h3 {
+            font-size: 18px;
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        .page-1 a,
+        span {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .page-1-1 a {
+            margin-right: 12px;
+        }
+
+        .page-1-1 a:last-child {
+            margin: 0;
+        }
+
+        .page-1-1 {
+            overflow: auto;
+        }
+
+        picture {
+            display: block;
+            overflow: hidden;
+            margin-bottom: 12px;
+            position: relative;
+            border: 1px solid #e5e5e5;
+            border-radius: 4px;
+            height: 131.5px;
+            width: 178px;
+        }
+
+        .page-1-1 a img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+        }
+
+        .page-2 img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .page-2 a {
+            width: 100%;
+            margin: 12px 0;
+            padding-bottom: 12px;
+        }
+
+        .page-2 span {
+            font-size: 18px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            margin-left: 12px;
+            font-weight: 400;
+        }
+
+        .page-2 a::after {
+            display: block;
+            content: "";
+            width: calc(100% - 80px);
+            border-bottom: 1px solid #f2f2f2;
+            transform: translate(80px, 12px);
+        }
+
+
+        @media screen and (min-width:768px) {
+            .mainpic {
+                height: 448px;
+            }
+
         }
     </style>
 </head>
@@ -480,9 +574,8 @@
             </div>
         </div>
     </div>
-
     <main class="container p-0 mt-3" id="container">
-        <div class="mainpic row w-100 m-0">
+        <div class="mainpic row w-100">
             <div class="mainpic-1 p-0 mr-1 col-12 col-md-auto">
                 <a href="#"><img class="" src="./img/resize.jpeg" alt=""></a>
                 <div class="pictext-1 pictext-2">
@@ -545,10 +638,379 @@
             </div>
         </div>
     </main>
-
+    <div class="homepage container">
+        <div class="row">
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>🦐🦞🐟海鮮大餐🦑🦀🐙</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (3).jpeg" alt=""></picture>
+                        <div>
+                            <h3>避風塘炒蝦</h3><span>凱特的廚房小記</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (4).jpeg" alt=""></picture>
+                        <div>
+                            <h3>香辣蟹</h3><span>廚房女漢子Rita's</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (5).jpeg" alt=""></picture>
+                        <div>
+                            <h3>破布子蒸鱈魚</h3><span>Yami's Handmade</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (6).jpeg" alt=""></picture>
+                        <div>
+                            <h3>豆腐炒鮮蚵</h3><span>Gina 廚房</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-1">
+                    <h2>最新生活誌文章</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-2 d-flex justify-content-between">
+                    <a href="#">
+                        <div class="d-flex align-items-center"><img src="./img/resize (7).jpeg" alt="">
+                            <span>地基主拜拜時間｜拜拜供品、水果、金紙怎麼準備？怎麼拜、方向、拜多久？</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="page-2 d-flex justify-content-between">
+                    <a href="#">
+                        <div class="d-flex align-items-center"><img src="./img/resize (8).jpeg" alt="">
+                            <span>還在新年快樂、恭喜發財？2022 創意「虎年吉祥話」學起來，虎哩虎年發大財～</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="page-2 d-flex justify-content-between">
+                    <a href="#">
+                        <div class="d-flex align-items-center"><img src="./img/resize (9).jpeg" alt="">
+                            <span>防疫清潔 7 大消毒劑推薦｜酒精、漂白水、次氯酸水⋯哪款最適合打掃家裡？</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="page-2 d-flex justify-content-between">
+                    <a href="#">
+                        <div class="d-flex align-items-center"><img src="./img/resize.png" alt="">
+                            <span>侯孝賢首度監製影集！2022 最強原創台劇《良辰吉時》網羅張艾嘉、李康生卡司超華麗</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="page-2 d-flex justify-content-between">
+                    <a href="#">
+                        <div class="d-flex align-items-center"><img src="./img/resize (10).jpeg" alt="">
+                            <span>懶人不開火 3 分鐘料理／《深夜食堂》鹽昆布拌高麗菜、涼拌酪梨小番茄</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="page-2 d-flex justify-content-between">
+                    <a href="#">
+                        <div class="d-flex align-items-center"><img src="./img/resize (1).png" alt="">
+                            <span>連台灣人都沒吃過！韓國洪瑞珍新推「榛果巧克力三明治」，兩層爆餡巧克力醬超罪惡</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>今日話題食譜</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (11).jpeg" alt=""></picture>
+                        <div>
+                            <h3>簡單韓式紫菜包飯 ...</h3><span>Daruma 達磨小廚房</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (12).jpeg" alt=""></picture>
+                        <div>
+                            <h3>#120 味噌豬肉</h3><span>阿紘ㄟ灶咖🍖</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (13).jpeg" alt=""></picture>
+                        <div>
+                            <h3>蔓越莓司康-減糖版</h3><span>小倩的吃貨廚房</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (14).jpeg" alt=""></picture>
+                        <div>
+                            <h3>奶酪</h3><span>BETTY</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>人氣食譜</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (15).jpeg" alt=""></picture>
+                        <div>
+                            <h3>炸年糕</h3><span>唐唐廚房</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (16).jpeg" alt=""></picture>
+                        <div>
+                            <h3>紹興醉雞</h3><span>小毓の饗樂廚房🍳</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (17).jpeg" alt=""></picture>
+                        <div>
+                            <h3>自製甜年糕(簡易減 ...</h3><span>小套房愛的幸福料理-小錡</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (18).jpeg" alt=""></picture>
+                        <div>
+                            <h3>雪Q餅</h3><span>烘焙研究室</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>本週熱銷</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (15).jpeg" alt=""></picture>
+                        <div>
+                            <h3>炸年糕</h3><span>唐唐廚房</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (16).jpeg" alt=""></picture>
+                        <div>
+                            <h3>紹興醉雞</h3><span>小毓の饗樂廚房🍳</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (17).jpeg" alt=""></picture>
+                        <div>
+                            <h3>自製甜年糕(簡易減 ...</h3><span>小套房愛的幸福料理-小錡</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (18).jpeg" alt=""></picture>
+                        <div>
+                            <h3>雪Q餅</h3><span>烘焙研究室</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>🐯虎你旺年菜</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (2).png" alt=""></picture>
+                        <div>
+                            <h3>年糕吃不完？</h3><span>清冰箱</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (3).png" alt=""></picture>
+                        <div>
+                            <h3>烏魚子這樣煮也好吃</h3><span>清冰箱</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (4).png" alt=""></picture>
+                        <div>
+                            <h3>蘿蔔糕吃不完？</h3><span>清冰箱</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (5).png" alt=""></picture>
+                        <div>
+                            <h3>剩的白切雞做什麼？</h3><span>清冰箱</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>🍱 大家的年菜菜單</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (6).png" alt=""></picture>
+                        <div>
+                            <h3>今年吃的是鄉愁</h3><span>心心 Xinxin</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (7).png" alt=""></picture>
+                        <div>
+                            <h3>不簡單的蔬食料理</h3><span>Yi Lu </span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (8).png" alt=""></picture>
+                        <div>
+                            <h3>電鍋輕鬆做年菜</h3><span>Feng Lin </span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (9).png" alt=""></picture>
+                        <div>
+                            <h3>新春家宴健康吃</h3><span>Ann11</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>🍺 虎搭拉 宅家小酌</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (10).png" alt=""></picture>
+                        <div>
+                            <h3>居家下酒菜</h3><span>我家就是居酒屋</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (11).png" alt=""></picture>
+                        <div>
+                            <h3>家樂福 必買紅白酒</h3><span>小資新手超合適</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (12).png" alt=""></picture>
+                        <div>
+                            <h3>料理酒差別？</h3><span>米酒、高粱、紹興、花雕</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (13).png" alt=""></picture>
+                        <div>
+                            <h3>Sangria</h3><span>西班牙水果酒</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>新廚上菜</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (19).jpeg" alt=""></picture>
+                        <div>
+                            <h3>舒芙蕾厚鬆餅</h3><span>小圓姐姐</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (20).jpeg" alt=""></picture>
+                        <div>
+                            <h3>和風香菇燒雞翅</h3><span>真的超幸福</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (21).jpeg" alt=""></picture>
+                        <div>
+                            <h3>青龍椒打拋豬</h3><span>愛亂煮小娟</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (14).png" alt=""></picture>
+                        <div>
+                            <h3>黑芝麻雞蛋脆餅</h3><span>BoBo Cooking</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>精選影音食譜</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (22).jpeg" alt=""></picture>
+                        <div>
+                            <h3>檸檬鮪魚義大利冷麵</h3><span>鋁罐の健康食記</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (23).jpeg" alt=""></picture>
+                        <div>
+                            <h3>奶油蘑菇濃湯</h3><span>熊與森林の楓手札</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (24).jpeg" alt=""></picture>
+                        <div>
+                            <h3>泡芙</h3><span>賽賽 Saisai｜賽食譜</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (25).jpeg" alt=""></picture>
+                        <div>
+                            <h3>韓式糖餅</h3><span>心心 Xinxin</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>當季食材</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (15).png" alt=""></picture>
+                        <div>
+                            <h3>芥菜</h3><span>11月～3月</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (16).png" alt=""></picture>
+                        <div>
+                            <h3>甜椒</h3><span>10月 ~ 5月</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (17).png" alt=""></picture>
+                        <div>
+                            <h3>菠菜</h3><span>10月～4月</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (18).png" alt=""></picture>
+                        <div>
+                            <h3>蘿蔔</h3><span>12月 ~ 3月</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 col-12 col-md-8 d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <h2>最新食譜</h2>
+                    <a href="#">更多<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="page-1-1 d-flex justify-content-between">
+                    <a href="#">
+                        <picture><img src="./img/resize (26).jpeg" alt=""></picture>
+                        <div>
+                            <h3>私房紅燒香菇刺參～</h3><span>陳小妹の輕鬆廚房</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (27).jpeg" alt=""></picture>
+                        <div>
+                            <h3>清滷腐皮高麗菜</h3><span>阿肌師廚房</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (28).jpeg" alt=""></picture>
+                        <div>
+                            <h3>花生奶酥</h3><span>Pomii Lee</span>
+                        </div>
+                    </a><a href="#">
+                        <picture><img src="./img/resize (29).jpeg" alt=""></picture>
+                        <div>
+                            <h3>日式少油健康薄粉...</h3><span>名古屋人妻（小廚房大料...</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <script>
         let container = document.querySelectorAll('.container');
-        console.log(container)
         window.onresize = start;
         function start() {
             if (window.innerWidth < 767) {
