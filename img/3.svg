@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-tv</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-tv">
+            <rect id="Bg" x="0" y="0" width="36" height="36"></rect>
+            <g transform="translate(3.000000, 6.000000)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="0 26 32 26 32 1 0 1"></polygon>
+                <polygon id="Stroke-2" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="0 26 32 26 32 1 0 1"></polygon>
+                <path d="M7.2161,25.9398 L7.2161,0.9408 L7.2161,25.9398 Z" id="Fill-4" fill="#FFFFFF"></path>
+                <line x1="7.2159" y1="0.9402" x2="7.2159" y2="25.9402" id="Stroke-5" stroke="#564E4A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M24.2162,26.0199 L24.2162,1.0209 L24.2162,26.0199 Z" id="Fill-7" fill="#FFFFFF"></path>
+                <line x1="24.2159" y1="1.0202" x2="24.2159" y2="26.0202" id="Stroke-8" stroke="#564E4A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M0.0953,9.4806 L6.9933,9.4806 L0.0953,9.4806 Z" id="Fill-10" fill="#FFFFFF"></path>
+                <line x1="0.0953" y1="9.4802" x2="6.9933" y2="9.4802" id="Stroke-11" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M0.0953,17.9802 L6.9933,17.9802 L0.0953,17.9802 Z" id="Fill-13" fill="#FFFFFF"></path>
+                <line x1="0.0957" y1="17.9802" x2="6.9937" y2="17.9802" id="Stroke-14" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M25.0955,9.4806 L31.9935,9.4806 L25.0955,9.4806 Z" id="Fill-16" fill="#FFFFFF"></path>
+                <line x1="25.0953" y1="9.4802" x2="31.9933" y2="9.4802" id="Stroke-17" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M25.0955,17.9802 L31.9935,17.9802 L25.0955,17.9802 Z" id="Fill-19" fill="#FFFFFF"></path>
+                <line x1="25.0957" y1="17.9802" x2="31.9937" y2="17.9802" id="Stroke-20" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <polygon id="Fill-22" fill="#F06354" points="13.2497 16.7301 19.1817 13.4801 13.2497 10.2301"></polygon>
+                <polygon id="Stroke-23" stroke="#F06354" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="13.25 10.2302 13.25 16.7302 19.008 13.4802"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

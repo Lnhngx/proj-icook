@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-blog</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-blog">
+            <rect id="Bg" x="0" y="0" width="36" height="36"></rect>
+            <g transform="translate(6.500000, 1.000000)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="0 31.974 25 31.974 25 5.017 0 5.017"></polygon>
+                <g id="Group-14">
+                    <polygon id="Stroke-2" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="0 31.974 25 31.974 25 5.017 0 5.017"></polygon>
+                    <g id="Group-6" transform="translate(9.000000, 26.000000)">
+                        <path d="M9.8891,0.6035 C9.8891,0.6035 10.8851,6.0875 0.8891,5.9995" id="Fill-4" fill="#FFFFFF"></path>
+                        <path d="M9.8891,0.6035 C9.8891,0.6035 10.8851,6.0875 0.8891,5.9995" id="Stroke-5" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <g id="Group-9" transform="translate(5.000000, 12.000000)">
+                        <line x1="0.3891" y1="0.6147" x2="4.3891" y2="0.6147" id="Fill-7" fill="#FFFFFF"></line>
+                        <line x1="0.3891" y1="0.6147" x2="4.3891" y2="0.6147" id="Stroke-8" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                    <polygon id="Fill-10" fill="#FFFFFF" points="4.446 26.354 15.446 26.354 15.446 18.86 4.446 18.86"></polygon>
+                    <polygon id="Stroke-11" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="4.446 26.354 15.446 26.354 15.446 18.86 4.446 18.86"></polygon>
+                    <path d="M12.8891,0 C12.8891,0 17.8001,0.818 18.8451,5.138 L18.8891,26.273 C18.8891,26.273 18.8891,21.895 12.8891,22.069 L12.8891,0 Z" id="Fill-12" fill="#F06354"></path>
+                    <path d="M12.8891,0 C12.8891,0 17.8001,0.818 18.8451,5.138 L18.8891,26.273 C18.8891,26.273 18.8891,21.895 12.8891,22.069 L12.8891,0 Z" id="Stroke-13" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

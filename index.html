@@ -193,23 +193,184 @@
             font-weight: 300;
             height: 44px;
         }
+
         .header-popular-keywords strong {
             font-weight: 300;
         }
 
         .header-popular-keywords a {
-            font-weight: 500;
-            padding: 0 8px 26px 0;
+            font-weight: 400;
+            padding: 0 10px 26px 0;
         }
 
         .header-popular button {
             background: transparent;
             border: 0;
             color: #564e4a;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             padding: 0 16px 20px 8px;
         }
 
+        .mainpic {
+            height: 448px;
+        }
+
+        .mainpic-1 {
+            position: relative;
+        }
+
+        .mainpic img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+        }
+
+        .mainpic-2 div:first-child {
+            height: calc(50% - 4px);
+        }
+
+        .mainpic-1 {
+            width: calc(60% - 6px);
+            height: 100%;
+        }
+
+        .mainpic-2 {
+            width: 40%;
+            height: 100%;
+        }
+
+        .pictext-1 {
+            position: absolute;
+            bottom: 0;
+            color: white;
+            padding: 0 12px 12px;
+            width: 100%;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .pictext-2 {
+            padding: 0 12px 14px;
+        }
+
+        .pictext-1::before {
+            content: "";
+            position: absolute;
+            width: 6px;
+            height: 16px;
+            background-color: #f04646;
+            transform: translate(-12px, 5px);
+        }
+
+
+        .pictext-1::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            background-image: linear-gradient(-180deg, transparent, rgba(0, 0, 0, 0.6));
+            width: 100%;
+            height: 150%;
+            z-index: -1;
+            transform: translateX(-12px)
+        }
+
+        .pictext-2::after {
+            height: 200%;
+        }
+
+        .pictext-1 span {
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        .pictext-1 h1 {
+            font-size: 24px;
+            line-height: 1.4;
+            font-weight: 400;
+        }
+
+        .mainpic-2-1 {
+            position: relative;
+        }
+
+        .mainpic-2-2 {
+            position: relative;
+        }
+
+        .pictext-1 h2 {
+            font-size: 20px;
+            line-height: 1.4;
+            font-weight: 400;
+            white-space: break-spaces;
+        }
+
+        .mainpic-3 img {
+            width: 72px;
+            height: 72px;
+        }
+
+        .mainpic-3 span {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .mainpic-3 h2 {
+            font-size: 16px;
+            line-height: 1.4;
+            font-weight: 500;
+            white-space: break-spaces;
+
+        }
+
+        .mainpic-3 a {
+            padding-top: 12px;
+        }
+
+        .main-4 {
+            border-top: 16px solid #efede8;
+            border-bottom: 16px solid #efede8;
+        }
+
+        .main-4 nav {
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .main-4 nav img {
+            width: 38px;
+            height: 38px;
+        }
+
+        .main-4 a img:first-child {
+            width: 48px;
+            height: 24px;
+        }
+
+        .main-4 a img:nth-child(2) {
+            width: 150px;
+            height: 150px;
+        }
+
+        .main-4 h2 {
+            font-size: 16px;
+            white-space: pre-line;
+            margin: 4px 0 24px;
+        }
+
+        .main-4 button {
+            background-color: #f04646;
+            color: white;
+            font-size: 14px;
+            height: 32px;
+            padding: 0 18.5px;
+            border-radius: 4px;
+            border: 0;
+        }
+        .main-4 a div{
+            background-color: #fafafa;
+        }
     </style>
 </head>
 
@@ -280,7 +441,7 @@
     </header>
     <div class="container">
         <div class="row align-items-center">
-            <div class="search-bar d-flex col-lg-8 col-12 mt-3 justify-content-between p-0">
+            <div class="search-bar d-flex col-lg-8 col-12 mt-3 justify-content-start p-0">
                 <div class="search-by-type">
                     <select name="" id="">
                         <option value="" selected>找食譜</option>
@@ -290,17 +451,16 @@
                 </div>
                 <div class="search-by-keyword">
                     <input class="search-input1" aria-label="搜尋食譜名" placeholder="搜尋食譜名" value=""><input
-                        class="search-input2" aria-label="搜尋食材，以空格分開" placeholder="搜尋食材，以空格分開" value="">
+                        class="search-input2" aria-label="搜尋食材，以空格分開" placeholder="搜尋食材，以空格分開" value=""><button
+                        class="btn-search" type="submit" aria-label="搜尋" data-track-id="track-search-submit"><i
+                            class="fas fa-search"></i></button>
                 </div>
-                <button class="btn-search" type="submit" aria-label="搜尋" data-track-id="track-search-submit"><i
-                        class="fas fa-search"></i></button>
             </div>
             <div class="bookmark d-none d-lg-flex col-4 mt-3 justify-content-end">
                 <a href="#" class="mr-2 text-decoration-none "><i class="far fa-bookmark"></i>&nbsp;
                     食譜收藏</a>
                 <a href="#" class="text-decoration-none"><i class="fas fa-plus"></i>&nbsp;寫食譜</a>
             </div>
-
         </div>
         <div class="row">
             <div class="header-popular col-xs-12 w-100 d-flex d-md-block justify-content-between">
@@ -321,7 +481,89 @@
         </div>
     </div>
 
-    
+    <main class="container p-0 mt-3" id="container">
+        <div class="mainpic row w-100 m-0">
+            <div class="mainpic-1 p-0 mr-1 col-12 col-md-auto">
+                <a href="#"><img class="" src="./img/resize.jpeg" alt=""></a>
+                <div class="pictext-1 pictext-2">
+                    <span>編輯精選</span>
+                    <h1 class="mt-2 mb-0">週末午後的愜意，來份下午茶吧☕️</h1>
+                </div>
+            </div>
+            <div class="mainpic-2 d-none d-md-flex flex-column">
+                <div class="mainpic-2-1 mb-1 "><a href="#"><img class="" src="./img/resize (1).jpeg" alt=""></a>
+                    <div class="pictext-1">
+                        <span>生活食尚</span>
+                        <h2 class="mt-2 mb-0">連台灣人都沒吃過！韓國洪瑞珍新推「榛果巧克力三明治」，兩層爆餡巧克力醬超罪惡</h2>
+                    </div>
+                </div>
+                <div class="mainpic-2-2 h-50"><a href="#"><img class="" src="./img/resize (2).jpeg" alt=""></a>
+                    <div class="pictext-1">
+                        <span>週末時光</span>
+                        <h2 class="mt-2 mb-0">年點小點心，外酥內軟好美味！</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="mainpic-3 d-md-none d-flex flex-column">
+                <a href="" class="d-flex  pr-3 pl-3"><img src="./img/resize (1).jpeg" alt="">
+                    <div class="pl-2">
+                        <span class="d-flex mb-2">生活食尚</span>
+                        <h2 class="d-flex mb-0">連台灣人都沒吃過！韓國洪瑞珍新推「榛果巧克力三明治」，兩層爆餡巧克力醬超罪惡</h2>
+                    </div>
+                </a><a href="" class="d-flex  pr-3 pl-3 mb-3"><img src="./img/resize (2).jpeg" alt="">
+                    <div class="pl-2">
+                        <span class="d-flex mb-2">週末時光</span>
+                        <h2 class="">年點小點心，外酥內軟好美味！</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="main-4 w-100 pt-3 pb-3 pr-4 pl-4 d-md-none">
+                <nav class="d-flex w-100 justify-content-between">
+                    <div class="d-flex flex-column align-items-center"><img src="./img/1.svg" alt="">
+                        <p class=" mb-0">生活誌</p>
+                    </div>
+                    <div class="d-flex flex-column align-items-center"><img src="./img/2.svg" alt="">
+                        <p class=" mb-0">市集</p>
+                    </div>
+                    <div class="d-flex flex-column align-items-center"><img src="./img/3.svg" alt="">
+                        <p class=" mb-0">影音</p>
+                    </div>
+                    <div class="d-flex flex-column align-items-center"><img src="./img/4.svg" alt="">
+                        <p class=" mb-0">試用推薦</p>
+                    </div>
+                </nav>
+                <a href="#">
+                    <div class="d-flex justify-content-between">
+                        <div class="mt-2 ml-3"><img src="./img/5.svg" alt="">
+                            <h2>快速找到零失敗食譜
+                                輕鬆變化每日菜色</h2>
+                            <button><span>查看方案</span></button>
+                        </div>
+                        <img src="./img/6.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let container = document.querySelectorAll('.container');
+        console.log(container)
+        window.onresize = start;
+        function start() {
+            if (window.innerWidth < 767) {
+                container.forEach(item => {
+                    item.classList.remove('container');
+                    item.classList.add('container-fluid');
+                });
+            } else {
+                container.forEach(item => {
+                    item.classList.add('container');
+                    item.classList.remove('container-fluid');
+                });
+            };
+        }
+    </script>
 </body>
 
 </html>

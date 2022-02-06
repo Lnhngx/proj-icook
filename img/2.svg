@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-market</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-market">
+            <rect id="Bg" x="0" y="0" width="36" height="36"></rect>
+            <g transform="translate(3.500000, 4.000000)">
+                <path d="M3.0557,17.7778 L3.0557,26.0738 C3.0557,27.3828 4.1167,28.4448 5.4257,28.4448 L25.5747,28.4448 C26.8837,28.4448 27.9447,27.3828 27.9447,26.0738 L27.9447,17.7778" id="Fill-1" fill="#FFFFFF"></path>
+                <g id="Group-6" transform="translate(12.000000, 18.444400)">
+                    <polyline id="Fill-3" fill="#F06354" points="0.5371 9.9999 0.5371 0.5189 6.4631 0.5189 6.4631 9.9999"></polyline>
+                    <polyline id="Stroke-5" stroke="#F06354" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="0.5371 9.9999 0.5371 0.5189 6.4631 0.5189 6.4631 9.9999"></polyline>
+                </g>
+                <path d="M4.2407,0 L-0.0003,8.296 C-0.0003,8.296 0.6847,15.407 7.7967,10.667 C7.7967,10.667 11.9447,15.407 15.4997,10.667 C15.4997,10.667 19.6477,15.407 23.2037,10.667 C23.2037,10.667 29.8147,15.407 30.9997,8.296 L26.7597,0 L4.2407,0 Z" id="Fill-7" fill="#FFFFFF"></path>
+                <path d="M4.2407,0 L-0.0003,8.296 C-0.0003,8.296 0.6847,15.407 7.7967,10.667 C7.7967,10.667 11.9447,15.407 15.4997,10.667 C15.4997,10.667 19.6477,15.407 23.2037,10.667 C23.2037,10.667 29.8147,15.407 30.9997,8.296 L26.7597,0 L4.2407,0 Z" id="Stroke-9" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M3.0557,17.7778 L3.0557,26.0738 C3.0557,27.3828 4.1167,28.4448 5.4257,28.4448 L25.5747,28.4448 C26.8837,28.4448 27.9447,27.3828 27.9447,26.0738 L27.9447,17.7778" id="Stroke-11" stroke="#564E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
