@@ -1423,21 +1423,22 @@
         // let width = window.getComputedStyle(page1, '::before').getPropertyValue('width');
         // console.log(width);
 
-        // let container = document.querySelectorAll('.container');
-        // window.onresize = start;
-        // function start() {
-        //     if (window.innerWidth < 767) {
-        //         container.forEach(item => {
-        //             item.classList.remove('container');
-        //             item.classList.add('container-fluid');
-        //         });
-        //     } else {
-        //         container.forEach(item => {
-        //             item.classList.add('container');
-        //             item.classList.remove('container-fluid');
-        //         });
-        //     };
-        // }
+        let container = document.querySelectorAll('.container');
+        window.onresize = start;
+        function start() {
+            if (window.innerWidth < 767) {
+                container.forEach(item => {
+
+                    item.classList.remove('container');
+                    item.classList.add('container-fluid');
+                });
+            } else {
+                container.forEach(item => {
+                    item.classList.add('container');
+                    item.classList.remove('container-fluid');
+                });
+            };
+        }
     </script>
 </body>
 
